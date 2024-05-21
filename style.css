@@ -483,12 +483,12 @@ a {
     color: white;
 }
 
-#formularioPage #columnForm--itens {
+#formularioPage .columnForm--itens {
     width: 75%;
     align-self: center;
 }
 
-#formularioPage #columnForm--itens input {
+#formularioPage .columnForm--itens input {
     margin-bottom: 1.5em;
 }
 
@@ -518,7 +518,7 @@ a {
     height: 7rem;
 }
 
-#columnForm--itens {
+.columnForm--itens {
     display: flex;
     flex-direction: column;
     align-items: center;
