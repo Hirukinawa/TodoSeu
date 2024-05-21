@@ -1,7 +1,3 @@
-/*
-Botar variáveis de cor aqui
-*/
-
 :root {
     --cor-paragrafo: rgb(133, 133, 133);
     --cor-rosa: #f48b93;
@@ -453,7 +449,6 @@ a {
     background-color: var(--buttonForm-hover);
     border-color: var(--buttonForm-hover);
 }
-
 
 #formPage {
     min-height: 125vh;
