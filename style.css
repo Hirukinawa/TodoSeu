@@ -1,0 +1,1005 @@
+/*
+Botar variáveis de cor aqui
+*/
+
+:root {
+    --cor-paragrafo: rgb(133, 133, 133);
+    --cor-rosa: #f48b93;
+    --cor-vermelho: #f06277;
+    --cor-laranja: #f58d73;
+    --buttonForm-hover: rgb(183, 38, 60);
+    --buttonForm-background: rgb(239, 91, 114);
+    --buttonContato-background: #f5886c;
+    --buttonContato-hover: #f5704f;
+    --page7Span: #fcd3c2;
+}
+
+/* -- Page, Row, Column -- */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+section {
+    min-height: 90vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rowReverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.divisoria {
+    width: 100%;
+    margin: 0;
+}
+
+.imagemGrande {
+    width: 100%;
+}
+
+.imgLateral10 {
+    width: 10%;
+}
+
+/* -- Tags --*/
+
+body {
+    margin: 0px;
+}
+
+a {
+    text-align: center;
+}
+
+body, button {
+    font-family: "Baloo 2", Arial, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: var(--cor-rosa);
+}
+
+h1, h2, h3 {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.25em;
+    color: var(--cor-paragrafo);
+}
+
+span {
+    font-weight: 600;
+}
+
+button {
+    padding: .5rem;
+    color: white;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+}
+
+form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form span {
+    color: red;
+}
+
+input, select {
+    width: 100%;
+    border: 2px solid rgb(239, 91, 114);
+    border-radius: 1rem;
+    height: 3rem;
+    color: var(--cor-paragrafo);
+    text-align: center;
+    font-family: "Baloo 2", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.15em;
+}
+
+footer {
+    margin-top: 1vw;
+    max-height: 40vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -- Id's -- */
+
+#page1 {
+    min-height: 100vh;
+    height: auto;
+    background-image: url("./images/fundo.png");
+    background-size: 100% 45%;
+    background-repeat: no-repeat;
+}
+
+#columnPc {
+    margin-left: 1em;
+    padding: 2em;
+    align-self: center;
+}
+
+#confira {
+    align-self: flex-end;
+    justify-content: space-around;
+}
+
+#page1 h2 {
+    color: var(--cor-rosa);
+    font-size: 1.75em;
+}
+
+#imgComputador {
+    width: 100%;
+}
+
+#imgSeta {
+    width: 20%;
+}
+
+#page1--imgMulher {
+    width: 30%;
+    align-self: flex-end;
+}
+
+#page1--rowBaixo {
+    width: 100%;
+    justify-content: center;
+    background-image: url("./images/back-2-0004.png");
+    background-size: 100% 85%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#page1--laterais {
+    width: 10%;
+}
+
+#imagemFundo {
+    padding-left: 3em;
+}
+
+#imagemFundo .row {
+    justify-content: center;
+    column-gap: 5em;
+    margin-top: 1em;
+}
+
+#imagemFundo nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+    align-self: flex-start;
+    margin-top: 2em;
+}
+
+#cadastreLogoTodoSeu {
+    align-self: flex-start;
+}
+
+#botaoCadastre {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 100%;
+    padding: 0px;
+    margin: 1.75em 0px 3em 0px;
+    font-size: 1em;
+    border-radius: 1em;
+}
+
+#botaoCadastre:hover {
+    background-color: var(--cor-vermelho);
+    border: 1px solid var(--cor-vermelho);
+}
+
+#column--divisoria {
+    position: relative;
+}
+
+#page1--columnTexto {
+    width: 50%;
+    text-align: start;
+    align-items: flex-start ;
+    margin: 0px;
+}
+
+#page1--columnTexto h1 {
+    margin: -1em;
+}
+
+#page1--columnTexto p {
+    margin: 0px;
+}
+
+.logos {
+    width: 3vw;
+}
+
+#imagemFundo .column h1,
+#imagemFundo .column p {
+    margin: .5em;
+}
+
+#page1 h1 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#page1 p {
+    color: white;
+    font-size: 1.15em;
+}
+
+#page2 {
+    min-height: 90vh;
+    padding: 0 5em;
+}
+
+#page2 span {
+    color: var(--cor-vermelho);
+}
+
+#page2 .row {
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+#page2 .rowList {
+    width: 27%;
+}
+
+#divisoria--rapidoFacil {
+    margin-bottom: -.5em;
+}
+
+#page3 {
+    background-image: url("./images/0017.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#page3 h1 {
+    margin: 0;
+    color: white;
+}
+
+#page3 p {
+    margin-bottom: 2em;
+    color: white;
+}
+
+#page3 img {
+    width: 70%;
+    border-radius: 2em;
+    margin: 0 2em;
+}
+
+#page3 .column {
+    margin: 2em 0;
+    width: 70%;
+}
+
+#page4 {
+    text-align: center;
+    padding: 0 10em;
+}
+
+#page4--row {
+    margin-top: 3em;
+    flex-wrap: wrap;
+}
+
+#page5 {
+    min-height: 100vh;
+    padding-bottom: 1em;
+}
+
+#page5 p {
+    margin: .25em;
+}
+
+#page5 h2 {
+    color: var(--cor-rosa);
+    margin-bottom: 1em;
+}
+
+#page5--row {
+    margin-bottom: 5%;
+}
+
+#page5--column {
+    align-items: flex-start;
+    text-align: start;
+    width: 35%;
+}
+
+#page5--img {
+    width: 25%;
+}
+
+#page6 {
+    background-image: url("./images/0030.jpg");
+    background-size: 100% 100%;
+    padding: 1em;
+}
+
+#page6--img {
+    width: 80%;
+}
+
+#page7--row {
+    justify-content: space-around;
+}
+
+#page7 .column{
+    margin-top: 4em;
+    width: 30%;
+    text-align: center;
+}
+
+#page7 .column p:not(.buttonContato p) {
+    font-size: 1.5em;
+    color: var(--cor-rosa);
+}
+
+#page7 .column h2 {
+    color: var(--cor-vermelho);
+    font-size: 2em
+}
+
+#page7 span {
+    color: var(--page7Span);
+}
+
+#page7 p span {
+    font-weight: 800;
+    color: var(--cor-rosa);
+}
+
+#page8 h2:not(#page8--h2, .page8--columnAtendimento--h2) {
+    font-size: 2em;
+    color: var(--cor-rosa);
+}
+
+#page8--h2 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 400;
+    color: var(--cor-laranja);
+}
+
+#page8--row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#page8--columnAtendimento {
+    align-self: flex-start;
+    padding: 1em;
+    width: 55%;
+}
+
+#horarioAtendimento {
+    color: var(--cor-laranja);
+    font-size: 2em;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: .25em;
+    border: 2px solid rgb(239, 91, 114);
+    border-radius: 1.75em;
+    background-color: none;
+}
+
+#page8--imgMulher {
+    width: 25%;
+    align-self: flex-end;
+}
+
+#mc-embedded-subscribe {
+    color: white;
+    padding: .25em 1.25em;
+    width: auto;
+    background-color: var(--buttonForm-background);
+}
+
+#mc-embedded-subscribe:hover {
+    background-color: var(--buttonForm-hover);
+    border-color: var(--buttonForm-hover);
+}
+
+
+#formPage {
+    min-height: 125vh;
+    height: auto;
+    text-align: center;
+    background-image: url("./images/0017.jpg");
+    background-size: 100% 100%;
+    color: white;
+}
+
+#formPage h1 {
+    color: white;
+    margin-bottom: -.5rem;
+}
+
+#formPage p {
+    color: white;
+}
+
+#todoSeuLogo-form {
+    margin-top: 1em;
+    margin-bottom: 0px;
+}
+
+#formularioPage {
+    align-items: center;
+    min-height: 100vh;
+    height: auto;
+    text-align: center;
+    background-image: url("./images/0017.jpg");
+    background-size: 100% 100%;
+    color: white;
+}
+
+#formularioPage #columnForm--itens {
+    width: 75%;
+    align-self: center;
+}
+
+#formularioPage #columnForm--itens input {
+    margin-bottom: 1.5em;
+}
+
+#formularioPage #cadastre {
+    width: 100%;
+}
+
+#formularioPage h1 {
+    margin: 0px;
+    color: white;
+    margin-bottom: -.5rem;
+}
+
+#formularioPage p {
+    color: white;
+}
+
+#formularioPage #cadastre {
+    width: 100%;
+}
+
+#formularioPage #cadastre h1 {
+    font-size: 2.5em;
+}
+
+#inAjuda {
+    height: 7rem;
+}
+
+#columnForm--itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cadastre {
+    width: 70%;
+}
+
+#cadastre h1 {
+    font-size: 3em;
+}
+
+#cadastre h2 {
+    font-weight: 400;
+    font-size: 2em;
+}
+
+#whatsButton {
+    width: 4em;
+}
+
+#chamenosNoWhats {
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+    z-index: 999;
+}
+
+#formMail {
+    height: 100vh;
+    width: 65%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footerColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+#footer--imgTodoSeu {
+    width: 30vw;
+    margin-right: 1rem;
+}
+
+#footerDivisoria {
+    height: .25rem;
+}
+
+/* -- Classes -- */
+
+.indicates-required {
+    align-self: flex-start;
+}
+
+.rowList {
+    align-self: flex-start;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3em;
+    color: var(--cor-paragrafo);
+}
+
+.rowList h2 {
+    font-size: 1.45em;
+    color: var(--cor-rosa);
+}
+
+.page4--list h2 {
+    margin: 0;
+}
+
+.page7--img {
+    width: 100%;
+}
+
+.buttonContato {
+    width: 70%;
+    font-weight: 600;
+    border-radius: 2em;
+    padding: 1em;
+    font-size: 1.15em;
+    background-color: var(--buttonContato-background);
+    margin-bottom: 2em;
+}
+
+.buttonContato p {
+    color: white;
+    margin: 0;
+}
+
+.buttonContato:hover {
+    background-color: var(--buttonContato-hover);
+}
+
+.page8--img {
+    width: 30%;
+}
+
+.page8--column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.page8--columnAtendimento--h2 {
+    font-size: 2.5em;
+    color: var(--cor-rosa);
+}
+
+.rowForm {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rowForm div {
+    width: 32%;
+}
+
+.rowFormMensagem {
+    width: 100%;
+}
+
+.footer--imgLogo {
+    width: 5vw;
+    margin-left: 1rem;
+}
+
+@media (max-width: 1200px) {
+    #page1 h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.15em;
+    }
+}
+
+@media (max-width: 1100px) {
+    #page1 h1 {
+        font-size: 1.75em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+}
+@media (max-width: 1050px) {
+
+    section {
+        max-width: 100vw;
+    }
+
+    #page1 h1 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 800px) {
+
+    #formularioPage #cadastre h1 {
+        font-size: 1.75em;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.15em;
+    }
+
+    p {
+        font-size: .5em;
+    }
+
+    .faleNoWhats {
+        display: none;
+    }
+
+    #chamenosNoWhats {
+        position: fixed;
+        right: 1em;
+        bottom: 1em;
+    }
+
+    #page1 {
+        background-size: 200% 62.5%;
+        background-position: top center;
+    }
+
+    #imagemFundo {
+        padding: 0px;
+    }
+
+    #imagemFundo .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cadastreLogoTodoSeu, #todoSeuLogo {
+        align-self: center;
+        order: 1;
+    }
+
+    #imagemFundo nav, #botaoCadastre {
+        order: 2;
+    }
+
+    #page1--columnTexto {
+        order: 3;
+    }
+
+    #page1--columnTexto h1 {
+        text-align: center;
+        font-size: 1.25em;
+    }
+
+    #page1--columnTexto p {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #page1--rowBaixo {
+        flex-direction: column;
+        background-size: 100% 60%;
+    }
+
+    #page1--imgMulher {
+        width: 40%;
+        align-self: flex-end;
+    }
+
+    #imgComputador {
+        margin-bottom: 1.5em;
+    }
+
+    #confira {
+        align-self: flex-start;
+        max-width: 375px;
+        position: absolute;
+        bottom: 6em;
+    }
+
+    .logos {
+        width: 8vw;
+        margin: 0px 0px 1em 0px;
+    }
+
+    #page1--columnTexto {
+        width: 85%;
+    }
+
+    #imagemFundo nav {
+        justify-content: space-around;
+        align-self: center;
+        width: 70%;
+        margin: 0px;
+    }
+
+    #imagemFundo .row .row {
+        align-self: center;
+    }
+
+    #page2,
+    #page4 {
+        padding: 1em;
+    }
+
+    #page2 > h1,
+    #page4 >  h1,
+    #page5 > h1 {
+        font-size: 1.75em;
+    }
+
+    #page2 > .row,
+    #page4 > .row {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3em;
+        padding: 0em 2em;
+    }
+
+    #page2 .rowList,
+    #page4 .rowList {
+        width: auto;
+    }
+
+    .buttonContato {
+        width: auto;
+        font-size: 2em;
+        padding: .5em;
+    }
+
+    #page3 {
+        min-height: 70vh;
+        height: auto;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #page3 > .column {
+        width: 85%
+    }
+
+    #page3 > .column > h1 {
+        font-size: 1.6em;
+    }
+
+    #page3 > .column > p {
+        font-size: 1em;
+    }
+
+    #page3 > .column > img {
+        width: 100%;
+    }
+
+    #page5 {
+        padding: 0px 1em;
+    }
+
+    #page5--row {
+        flex-direction: column;
+    }
+
+    #page5--row > img {
+        margin: 2em 0px;
+        width: 80%;
+    }
+
+    #page5--column {
+        width: 90%;
+        text-align: center;
+    }
+
+    #page5--column > p {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    #page6 {
+        min-height: 1%;
+        padding: 1em;
+    }
+
+    #page6--img {
+        width: 100%;
+    }
+
+    #page7--row {
+        flex-direction: column;
+    }
+
+    #page7 .column {
+        width: auto;
+        padding: 0px 2em;
+    }
+
+    #page8 p {
+        font-size: 1.1em;
+    }
+
+    #page8--row {
+        flex-direction: column;
+    }
+
+    #page8--columnAtendimento {
+        width: auto;
+    }
+
+    .page8--columnAtendimento--h2 {
+        font-size: 2em;
+    }
+
+    #page8--imgMulher {
+        align-self: center;
+        width: 50%;
+    }
+
+    #horarioAtendimento {
+        width: 90%;
+        margin: 1em 0px .5em 0px;
+        flex-wrap: nowrap;
+        font-size: 1.25em;
+    }
+
+    #formPage {
+        min-height: fit-content;
+    }
+
+    #formMail {
+        height: auto;
+        width: 85%
+    }
+
+    form > .column {
+        width: 100%;
+    }
+
+    #cadastre {
+        width: auto;
+    }
+
+    #cadastre h1 {
+        margin: .5em 0px 0px 0px;
+        font-size: 1.75em;
+    }
+
+    #cadastre h2 {
+        margin: .5em 0px 0px 0px;
+        font-size: 1.25em;
+    }
+
+    #cadastre p {
+        font-size: 1em;
+    }
+
+    .rowForm {
+        flex-direction: column;
+    }
+
+    .rowForm div,
+    .rowFormMensagem div {
+        margin: .5em 1em;
+        width: auto;
+    }
+
+    #footerColumn {
+        width: auto;
+    }
+
+    #footerRow {
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+    }
+
+    .footer--imgLogo {
+        width: 7vw;
+        margin-left: 0px;
+    }
+
+    footer > .row {
+        justify-content: space-between;
+    }
+
+    #footerColumn > .row {
+        column-gap: .75em;
+    }
+
+    #footer--imgTodoSeu {
+        width: 40vw;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 450px) {
+    #confira {
+        align-self: flex-end;
+    }
+}
