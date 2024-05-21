@@ -548,6 +548,14 @@ a {
     z-index: 999;
 }
 
+#chamenosNoWhats:hover {
+    scale: (1,1);
+}
+
+#page1 a:hover {
+    scale: (1,1);
+}
+
 #formMail {
     height: 100vh;
     width: 65%;
@@ -928,6 +936,8 @@ a {
 
     #formPage {
         min-height: fit-content;
+        background-size: auto 100%;
+        background-position: center;
     }
 
     #formMail {
