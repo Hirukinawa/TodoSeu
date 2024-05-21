@@ -47,6 +47,7 @@ section {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    align-self: flex-end;
 }
 
 .divisoria {
@@ -403,12 +404,19 @@ a {
     color: var(--cor-laranja);
 }
 
+#page8 {
+    min-height: auto;
+    height: fit-content;
+    padding-top: 1rem;
+}
+
 #page8--row {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin: 0;
 }
 
 #page8--columnAtendimento {
@@ -548,22 +556,13 @@ a {
     z-index: 999;
 }
 
-#chamenosNoWhats:hover {
-    scale: (1.1);
-    transition: 0.3s;
-}
-
-#page1 a > img:hover {
-    scale: (1.1);
-    transition: 0.3s;
-}
-
 #formMail {
     height: 100vh;
     width: 65%;
     text-align: center;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #footerRow {
@@ -590,6 +589,12 @@ a {
 }
 
 /* -- Classes -- */
+
+.faleNoWhats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .indicates-required {
     align-self: flex-start;
