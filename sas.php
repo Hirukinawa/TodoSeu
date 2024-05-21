@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 $buttonContato = "<button class='buttonContato'><a href='#cadastre'><p>Entre em contato com a gente!</p></a></button>";
 
@@ -549,4 +549,4 @@ $buttonContato = "<button class='buttonContato'><a href='#cadastre'><p>Entre em 
                     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
                 }
             }
- -->
+ --> -->
