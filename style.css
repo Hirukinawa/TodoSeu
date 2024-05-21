@@ -553,7 +553,7 @@ a {
     transition: 0.3s;
 }
 
-#page1 a:hover {
+#page1 a > img:hover {
     scale: (1.1);
     transition: 0.3s;
 }
